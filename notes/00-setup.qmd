@@ -1,0 +1,30 @@
+---
+title: "Set-up"
+author: "Your name"
+date: "2023-10-11"
+format: 
+  html:
+    toc: true
+execute:
+  eval: false
+---
+
+# Install packages
+
+```{r}
+install.packages("pacman")
+
+pacman::p_load(
+               tidyverse,
+               here,
+               broom,
+               lme4,
+               janitor,
+               languageR)
+```
+
+```{r}
+sessionInfo()
+```
+
+
