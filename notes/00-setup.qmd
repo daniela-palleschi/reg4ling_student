@@ -26,5 +26,3 @@ pacman::p_load(
 ```{r}
 sessionInfo()
 ```
-
-
